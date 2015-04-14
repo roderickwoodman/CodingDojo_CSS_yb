@@ -12,14 +12,15 @@ a {
 
 #wrapper {
 	padding-bottom: 30px;
-	background-color: rgb(20,20,20);
+	background-color: rgb(25,25,25);
 	color: white;
 	font-family: Arial, Garamond, Helvetica, Verdana, sans-serif;
 	font-size: 0.70em;
+	line-height: 1.4em;
 }
 
 #header {
-	background-color: rgb(20,20,20);
+	background-color: rgb(25,25,25);
 }
 	#header img {
 		display: inline-block;
@@ -33,28 +34,40 @@ a {
 	}
 
 #sitenav {
-	background-color: rgb(57,57,57);
-	padding-left: 10px;
+		background-color: rgb(57,57,57);
+		height: 45px;
 }
-	#sitenav a {
+	#sitenav div {
+		background-color: rgb(57,57,57);
+		padding-left: 10px;
+		padding-top: 14px;
+		margin: 10px 10px;
+	}
+	#sitenav div a {
 		display: inline-block;
 		color: rgb(128,139,146);
-		padding: 10px 15px;
+		padding: 0px 15px;
 		font-size: 0.75em;
 		font-weight: 700;
+		border-right: 1px solid rgb(128,139,146);
+	}
+	#sitenav div a:first-child {
+		color: white;
+	}
+	#sitenav div a:last-child {
+		border-right: none;
 	}
 
 #contentnav {
-	background-color: rgb(20,20,20);
-	/*border: 1px solid white;*/
+	background-color: rgb(25,25,25);
 	padding: 30px;
-	font-size: 0.80em;
+	font-size: 0.9em;
 	line-height: 1.4em;
+	border-top: 5px outset rgb(57,57,57);
 }
 	#contentnav img {
 		vertical-align: top;
 		padding: 0 5px;
-		/*width: 48px;*/
 	}
 	#contentnav li {
 		display: inline-block;
@@ -63,20 +76,18 @@ a {
 	#contentnav li div {
 		display: inline-block;
 		width: 140px;
-		/*width: auto;*/
 	}
 
 #calltoaction {
-	background-color: rgb(17,17,17);
+	background-color: rgb(15,15,15);
 	padding: 20px;
 	line-height: 1.4em;
-	/*font-weight: 100;*/
 }
 	#calltoaction div {
 		display: inline-block;
-		width: 600px;
-		margin-right: 150px;
-		padding: 10px;
+		width: 625px;
+		margin-right: 140px;
+		padding: 15px;
 	}
 	#calltoaction h3 {
 		padding: 10px 0;
@@ -87,7 +98,6 @@ a {
 		display: inline-block;
 		vertical-align: top;
 		margin-top: 30px;
-		/*vertical-align: middle;*/
 		background-color: rgb(232,113,41);
 		color: white;
 		font-size: 1.2em;
@@ -104,7 +114,7 @@ a {
 	}
 	#portfolio div h4 {
 		display: inline-block;
-		width: 700px;
+		width: 815px;
 		font-size: 1.5em;
 		font-weight: 100;
 		font-family: Georgia, serif;
@@ -113,7 +123,7 @@ a {
 		display: inline-block;
 		text-align: right;
 		font-style: italic;
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 	#portfolio li {
 		display: inline-block;
@@ -132,6 +142,14 @@ a {
 		width: 221px;
 	}
 
+#footer {
+	padding: 15px 0;
+}
+	#footer a {
+		color: rgb(128,139,146);
+		font-size: 0.75em;
+		margin-left: 890px;
+	}
 
 
 
